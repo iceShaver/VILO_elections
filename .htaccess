@@ -1,0 +1,5 @@
+AuthName "Only admins member"
+AuthType Basic
+AuthUserFile ./conf/.htpasswd
+AuthGroupFile ./conf/.htgroups
+require group admins
